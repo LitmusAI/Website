@@ -12,7 +12,7 @@ export default function App() {
         <span className={styles.logo}>Litmus AI</span>
         <div className={styles.navRight}>
           <span className={styles.dot} />
-          <span className={styles.navLabel}>v1 coming soon</span>
+          <span className={styles.navLabel}>In the lab</span>
         </div>
       </nav>
 
