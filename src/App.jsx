@@ -22,17 +22,17 @@ export default function App() {
         <h1 className={styles.companyName}>LITMUS AI</h1>
 
         <div className={styles.comingSoon}>
-          Something big is coming soon.
+          The credit score for AI agents is coming.
         </div>
 
         <p className={styles.tagline}>
-          Agentic testing &amp; monitoring — built for the era where AI runs the show.
+          Dynamic risk scores for AI agents — enabling the underwriting of autonomous systems.
         </p>
 
         <div className={styles.pills}>
-          <span className={styles.pill}>Agentic Testing</span>
-          <span className={styles.pill}>Real-Time Monitoring</span>
-          <span className={styles.pill}>AI Reliability</span>
+          <span className={styles.pill}>Agent Risk Scoring</span>
+          <span className={styles.pill}>AI Underwriting</span>
+          <span className={styles.pill}>Trust Infrastructure</span>
         </div>
 
       </section>
