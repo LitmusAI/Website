@@ -1,4 +1,7 @@
+import { useNavigate } from 'react-router-dom'
+
 export default function App() {
+  const navigate = useNavigate()
   return (
     <div style={{
       display: 'flex',
@@ -19,6 +22,7 @@ export default function App() {
         Litmus AI
       </span>
       <button
+        onClick={() => navigate('/team')}
         style={{
           fontFamily: "'Satoshi', -apple-system, sans-serif",
           fontSize: '0.85rem',
